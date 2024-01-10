@@ -1,0 +1,107 @@
+
+.App{
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  background-image: linear-gradient(#f5eae5, #faf5f1);
+  align-items: center;
+  justify-content: space-around;
+}
+
+#formCollector {
+  height: 95vh;
+  width: 30vw;
+  display: block;
+  border-radius: 40px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#formCollector #main {
+  width: 70%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#formCollector #main h2{
+  margin: 0;
+  font-size: 2em;
+}
+
+#formCollector #main h4{
+  margin: 10px 0px;
+}
+
+#formCollector form{
+  display: flex;
+  flex-direction: column;
+}
+
+#formCollector form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#formCollector form span{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+
+#formCollector form span input{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  background: none;
+  border-bottom: 2px solid black;
+  padding: 10px 0px 10px 0px;
+}
+
+
+#formCollector form span input[type="submit"]{
+  background-color: black;
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-left: 20px;
+}
+
+#formCollector form span input[type="submit"]:hover {
+  background-color: #6b3c65;
+}
+#rside{
+  height: 95vh;
+  width: 65vw;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.cloud1{
+  position: absolute;
+  width: 100px;
+  object-fit: cover;
+  filter: drop-shadow(0px 40px 10px rgba(0, 0, 0, 0.26));
+  top: 30px;
+  left: 30px;
+}
+
+
+.cloud2{
+  position: absolute;
+  width: 150px;
+  object-fit: cover;
+  filter: drop-shadow(0px 40px 10px rgba(0, 0, 0, 0.26));
+  bottom: 100px;
+  left: 440px;
+}
